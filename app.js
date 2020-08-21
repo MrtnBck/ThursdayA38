@@ -19,6 +19,6 @@ app.get("/", function(req, res){
 
 
 //SERVER START
-app.listen("5500", "127.0.0.1", function(){
+app.listen(process.env.PORT, function(){
     console.log("The Hajobull server has started!");
 });
